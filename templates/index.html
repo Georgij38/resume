@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое резюме</title>
+
+</head>
+<body>
+    <div class="fon-container ">
+        <img src="{{ url_for('static', filename='fon.jpg') }}" >
+    </div>
+
+     <div class="flex-container">
+        <div class="photo-container ">
+            <img src="{{ url_for('static', filename='My_photo.jpg') }}" alt="Опис фото">
+        </div>
+
+         <div class="contact-block">
+            <h2>Контакт</h2>
+            <p>Захаров Єгор Григоронич</p>
+            <p>Телефон: 0674570189</p>
+            <p>Email: georgijzaharov85@gmail.com</p>
+        </div>
+     </div>
+
+    <div class="text-block">
+
+        <h2>Мої навичьки</h2>
+        <p> Знаня Python рівень junior,
+            HTML знайомий на базовому рівні,
+            Знайомий з базами даних SQL(PostgreSQL, SQLite)та NoSQL (MongoDB).
+            Знаня англійської мови: впевниний користувачь Google перекладачя.
+
+        </p>
+    </div>
+
+     <div class="text-block">
+
+        <h2>Освіта</h2>
+        <p> Закінчів курс GOIT Python, плюс самостійно вивчяв.
+            Знаю синтаксис мови C++ та використаня принщипів ООП.
+        </p>
+    </div>
+
+    <div class="text-block">
+        <h2>Про себе</h2>
+        <p> Працьовитий, пидантичний, акуратний.
+            Прагну вивчяти цось нови та вдосконалювати навички.
+            Без шкідливих звичок.
+        </p>
+    </div>
+
+    <div class="text-block">
+        <h2>Бажання</h2>
+        <p>Я бажаю працювати у дружному колективі та створювати якісний і по можливості оригінальний продукт.
+           Дужи мрію працювати у компанії яка  створює  ігри, також це може бути старпап де я зможу покращити свої навички
+        </p>
+    </div>
+</body>
+</html>
